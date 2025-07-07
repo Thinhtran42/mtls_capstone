@@ -1,0 +1,41 @@
+name: Deploy to DigitalOcean
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keygen -y -f ~/.ssh/deploy_key > ~/.ssh/deploy_key.pub
+
+          # Debug: Kiểm tra key đã được tạo đúng
+          ls -la ~/.ssh/
+
+      - name: Test SSH connection
+        run: |
+          # Thêm tùy chọn -o trực tiếp vào lệnh ssh để bỏ qua kiểm tra host key
+          ssh -v -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} 'echo "SSH connection successful"' || { echo "SSH connection failed"; exit 1; }
+
+      - name: Deploy to Digital Ocean
+        run: |
+          # Thêm tùy chọn -o trực tiếp vào lệnh ssh
+          ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} '
+            cd MTLS_api &&
+            git pull origin main &&
+            npm install &&
+            export NODE_OPTIONS="--max-old-space-size=4096" &&
+            npm run build &&
+            pm2 restart mtls_api || pm2 start mtls_api
+          '

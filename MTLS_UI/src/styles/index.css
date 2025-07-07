@@ -1,0 +1,40 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif; /* Chọn font mặc định */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Đặt trọng số font cho tiêu đề */
+}
+
+ul, ol {
+    list-style: none; /* Loại bỏ dấu đầu dòng */
+}
+
+a {
+    text-decoration: none; /* Loại bỏ gạch chân */  
+    color: inherit; /* Kế thừa màu sắc từ phần tử cha */
+}
+
+img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của phần tử cha */
+    height: auto; /* Giữ tỷ lệ khung hình */
+}
+
+button {
+    border: none; /* Loại bỏ viền mặc định */
+    background: none; /* Loại bỏ nền mặc định */
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột qua nút */
+}
+
+input, textarea {
+    font-family: inherit; /* Kế thừa font từ phần tử cha */
+    font-size: inherit; /* Kế thừa kích thước font từ phần tử cha */
+}

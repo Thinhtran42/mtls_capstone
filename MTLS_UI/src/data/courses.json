@@ -1,0 +1,108 @@
+{
+  "courses": {
+    "basic": [
+      {
+        "id": 1,
+        "title": "CƠ BẢN",
+        "image": "https://plus.unsplash.com/premium_photo-1682125853703-896a05629709?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "duration": "2 tiếng 30p",
+        "students": 122,
+        "grade": "A",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Khuông nhạc và khóa nhạc",
+            "content": [
+              {
+                "image": "https://mrtg7m.com/wp-content/uploads/2024/07/Screenshot-2024-07-07-at-15.25.38.png",
+                "description": "Khuông nhạc (hay còn gọi là khuông nhạc kẻ) là một hệ thống gồm 5 dòng kẻ ngang và 4 khoảng trống giữa các dòng..."
+              },
+              {
+                "image": "https://acemusic.com.vn/wp-content/uploads/2021/06/du.png",
+                "description": "Nốt đen và nốt móc đơn: Nốt đen kéo dài 1 phách. Nốt móc đơn có một lá cờ, kéo dài 1/2 phách."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Nốt nhạc cơ bản",
+            "content": [
+              {
+                "image": "/images/basic-notes.png",
+                "description": "Các nốt nhạc cơ bản và vị trí của chúng trên khuông nhạc."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "intermediate": [
+      {
+        "id": 1,
+        "title": "NHỊP ĐIỆU & NHỊP PHÁCH",
+        "image": "https://images.unsplash.com/photo-1475275166152-f1e8005f9854?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "duration": "1 tiếng",
+        "students": 159,
+        "grade": "A",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Tìm hiểu về ô nhịp và chữ ký nhịp",
+            "content": [
+              {
+                "image": "/images/time-signature-1.png",
+                "description": "Chữ ký nhịp 4/4: Số trên (4) chỉ số phách trong một ô nhịp, số dưới (4) chỉ loại nốt được tính là một phách."
+              },
+              {
+                "image": "/images/time-signature-2.png",
+                "description": "Ví dụ về cách phân chia nốt trong ô nhịp 4/4: Một ô nhịp có thể chứa 1 nốt tròn, hoặc 2 nốt trắng, hoặc 4 nốt đen."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Các loại dấu lặng",
+            "content": [
+              {
+                "image": "/images/rest-notes.png",
+                "description": "Các dấu lặng trong hình bao gồm: dấu lặng tròn, dấu lặng trắng, dấu lặng đen và dấu lặng móc..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "advanced": [
+      {
+        "id": 1,
+        "title": "THANH ÂM & DẤU HOÁ",
+        "image": "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "duration": "2 tiếng 30p",
+        "students": 197,
+        "grade": "A",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Dấu hóa và biến thể",
+            "content": [
+              {
+                "image": "/images/accidentals.png",
+                "description": "Trong hình có các loại hóa biểu: dấu thăng (#) nâng cao độ lên nửa cung, dấu giáng (b) hạ cao độ xuống nửa cung..."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Dấu chấm và dấu nối",
+            "content": [
+              {
+                "image": "/images/dots-ties.png",
+                "description": "Dấu chấm đặt sau nốt nhạc sẽ kéo dài độ dài của nốt thêm 1/2. Dấu nối được sử dụng để nối hai nốt cùng cao độ..."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

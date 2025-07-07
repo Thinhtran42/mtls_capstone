@@ -1,0 +1,20 @@
+{
+  "notes": [
+    {
+      "keys": ["g/4"],
+      "duration": "q"
+    },
+    {
+      "keys": ["b/4"],
+      "duration": "q"
+    },
+    {
+      "keys": ["d/5"],
+      "duration": "q"
+    },
+    {
+      "keys": ["f/5"],
+      "duration": "q"
+    }
+  ]
+} 

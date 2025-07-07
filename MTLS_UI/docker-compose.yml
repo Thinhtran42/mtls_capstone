@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  frontend:
+    image: kidnopro/mtls_ui:lastest
+    ports:
+      - '8080:80'
+    container_name: mtls_ui
+    env_file:
+      - .env
+    restart: always

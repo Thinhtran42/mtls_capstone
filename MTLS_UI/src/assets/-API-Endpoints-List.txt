@@ -1,0 +1,78 @@
+# API Endpoints List
+
+## Authentication
+- POST /api/auth/login
+- POST /api/auth/logout
+- POST /api/auth/refresh-token
+- POST /api/auth/reset-password
+
+## Student Module
+### Course & Lessons
+- GET /api/courses
+- GET /api/courses/{courseId}
+- GET /api/courses/{courseId}/lessons
+
+- GET /api/lessons/{lessonId}
+- GET /api/lessons/{lessonId}/materials
+
+### Exercises & Quizzes
+- GET /api/exercises
+- GET /api/exercises/{exerciseId}
+- POST /api/exercises/{exerciseId}/submit
+- GET /api/quizzes
+- GET /api/quizzes/{quizId}
+- POST /api/quizzes/{quizId}/submit
+
+### Progress Tracking
+- GET /api/students/progress
+- GET /api/students/performance
+- GET /api/students/assignments
+- POST /api/assignments/{assignmentId}/submit
+- GET /api/practice-materials
+
+## Teacher Module
+### Course Management
+- POST /api/courses
+- PUT /api/courses/{courseId}
+- DELETE /api/courses/{courseId}
+- POST /api/lessons
+- PUT /api/lessons/{lessonId}
+- DELETE /api/lessons/{lessonId}
+
+### Content Management
+- POST /api/materials
+- PUT /api/materials/{materialId}
+- DELETE /api/materials/{materialId}
+- POST /api/quizzes
+- PUT /api/quizzes/{quizId}
+- DELETE /api/quizzes/{quizId}
+
+
+## Admin Module
+### User Management
+- GET /api/users
+- POST /api/users
+- PUT /api/users/{userId}
+- DELETE /api/users/{userId}
+
+
+### Support
+- GET /api/support/tickets
+- POST /api/support/tickets
+- PUT /api/support/tickets/{ticketId}
+- GET /api/system/reports
+
+## AI Features
+- POST /api/ai/check-exercise
+- POST /api/ai/validate-notation
+- POST /api/ai/identify-notes
+- POST /api/ai/generate-feedback
+
+- POST /api/submissions/exercise - Nộp bài exercise và nhận đánh giá từ AI
+- POST /api/submissions/quiz - Nộp bài quiz và nhận đánh giá từ AI
+- GET /api/submissions/exercise/student - Xem lịch sử nộp bài exercise
+- GET /api/submissions/quiz/student - Xem lịch sử nộp bài quiz
+API Rating khóa học:
+
+- POST /api/ratings/course/:courseId - Đánh giá khóa học (tạo mới hoặc cập nhật)
+- GET /api/ratings/course/:courseId - Xem tất cả đánh giá của một khóa học

@@ -1,0 +1,150 @@
+/* MUI Custom Styles */
+.stat-card {
+    background: white;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+    height: 100%;
+  }
+  
+  .stat-card .MuiAvatar-root {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+  }
+  
+  .chart-container {
+    background: white;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+    padding: 24px;
+  }
+  
+  .progress-circle {
+    background: white;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+    padding: 24px;
+    height: 100%;
+  }
+  
+  .course-list-container {
+    background: white;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+    padding: 24px;
+  }
+  
+  .popular-courses {
+    background: white;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+    padding: 24px;
+  }
+  
+  .progress-bar {
+    height: 6px !important;
+    border-radius: 3px !important;
+  }
+  
+  .course-item {
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  
+  .course-item:last-child {
+    border-bottom: none;
+  }
+  
+  .course-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .date-selector {
+    background: #5850EC;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+/* Calendar styles */
+.MuiDateCalendar-root {
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.date-selector {
+  background-color: #fff !important;
+  color: #333 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+  padding: 8px 16px !important;
+}
+
+.date-selector:hover {
+  background-color: #f8f9fa !important;
+}
+
+/* Calendar header */
+.MuiPickersCalendarHeader-root {
+  padding: 16px !important;
+}
+
+.MuiPickersCalendarHeader-label {
+  font-weight: 600 !important;
+}
+
+/* Calendar days */
+.MuiDayCalendar-weekDayLabel {
+  color: #6b7280 !important;
+  font-weight: 600 !important;
+}
+
+.MuiPickersDay-root {
+  font-weight: 500 !important;
+}
+
+.MuiPickersDay-root.Mui-selected {
+  background-color: #5850EC !important;
+  color: #fff !important;
+}
+
+.MuiPickersDay-root:hover {
+  background-color: rgba(88, 80, 236, 0.1) !important;
+}
+
+.MuiPickersDay-root.Mui-selected:hover {
+  background-color: #4338CA !important;
+}
+
+/* Today highlight */
+.MuiPickersDay-root.MuiPickersDay-today {
+  border: 1px solid #5850EC !important;
+  color: #5850EC !important;
+}
+
+/* Calendar popover */
+.MuiPopover-paper {
+  margin-top: 8px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 8px !important;
+}
+
+/* Month/Year selection buttons */
+.MuiPickersCalendarHeader-switchViewButton {
+  color: #5850EC !important;
+}
+
+/* Navigation arrows */
+.MuiPickersArrowSwitcher-button {
+  color: #5850EC !important;
+}
+
+.MuiPickersArrowSwitcher-button:hover {
+  background-color: rgba(88, 80, 236, 0.1) !important;
+}

@@ -1,0 +1,33 @@
+{
+    "header": {
+        "search": "Search in course",
+        "searchButton": "Search",
+        "profile": "Profile",
+        "course": "Course Content",
+        "grades": "Grades",
+        "notes": "Notes",
+        "discussion": "Discussion",
+        "practice": "Practice",
+        "personalInfo": "Personal Information",
+        "logout": "Logout"
+    },
+    "goalTracker": {
+        "title": "Weekly Goal Progress Tracker",
+        "description": "Learners with goals are 75% more likely to complete courses. Set your weekly goal now to take charge of your learning journey and drive your success!",
+        "setGoal": "Set your weekly goal",
+        "commitment": "I commit to learning {{days}} days each week on MTLS",
+        "editGoal": "Edit my goal",
+        "selectDays": "Select the days you want to learn. You can always change this later.",
+        "saveGoal": "Save goal"
+    },
+    "assignment": {
+        "submitButton": "Submit",
+        "submitting": "Submitting...",
+        "continue": "Continue",
+        "result": "Result: {{score}}% ({{status}})",
+        "passed": "Passed",
+        "notPassed": "Not Passed",
+        "congratulations": "Congratulations! You have completed this exercise.",
+        "needsImprovement": "You need at least 70% to complete this exercise."
+    }
+}

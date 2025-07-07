@@ -1,0 +1,106 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "title": "Basic Treble Clef Notes",
+      "description": "Practice identifying basic notes on the treble clef staff",
+      "difficulty": "beginner",
+      "clef": "treble",
+      "totalQuestions": 10,
+      "notes": [
+        { "key": "C", "notation": "C4", "frequency": 261.63 },
+        { "key": "D", "notation": "D4", "frequency": 293.66 },
+        { "key": "E", "notation": "E4", "frequency": 329.63 },
+        { "key": "F", "notation": "F4", "frequency": 349.23 },
+        { "key": "G", "notation": "G4", "frequency": 392.00 },
+        { "key": "A", "notation": "A4", "frequency": 440.00 },
+        { "key": "B", "notation": "B4", "frequency": 493.88 }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Intermediate Treble Clef Notes",
+      "description": "Practice identifying notes including ledger lines on the treble clef",
+      "difficulty": "intermediate",
+      "clef": "treble",
+      "totalQuestions": 10,
+      "notes": [
+        { "key": "C", "notation": "C4", "frequency": 261.63 },
+        { "key": "D", "notation": "D4", "frequency": 293.66 },
+        { "key": "E", "notation": "E4", "frequency": 329.63 },
+        { "key": "F", "notation": "F4", "frequency": 349.23 },
+        { "key": "G", "notation": "G4", "frequency": 392.00 },
+        { "key": "A", "notation": "A4", "frequency": 440.00 },
+        { "key": "B", "notation": "B4", "frequency": 493.88 },
+        { "key": "C5", "notation": "C5", "frequency": 523.25 },
+        { "key": "D5", "notation": "D5", "frequency": 587.33 },
+        { "key": "E5", "notation": "E5", "frequency": 659.25 }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Basic Bass Clef Notes",
+      "description": "Practice identifying basic notes on the bass clef staff",
+      "difficulty": "beginner",
+      "clef": "bass",
+      "totalQuestions": 10,
+      "notes": [
+        { "key": "C", "notation": "C3", "frequency": 130.81 },
+        { "key": "D", "notation": "D3", "frequency": 146.83 },
+        { "key": "E", "notation": "E3", "frequency": 164.81 },
+        { "key": "F", "notation": "F3", "frequency": 174.61 },
+        { "key": "G", "notation": "G3", "frequency": 196.00 },
+        { "key": "A", "notation": "A3", "frequency": 220.00 },
+        { "key": "B", "notation": "B3", "frequency": 246.94 }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Advanced Note Identification",
+      "description": "Practice identifying notes across both treble and bass clefs",
+      "difficulty": "advanced",
+      "clef": "both",
+      "totalQuestions": 15,
+      "notes": [
+        { "key": "C3", "notation": "C3", "frequency": 130.81, "clef": "bass" },
+        { "key": "D3", "notation": "D3", "frequency": 146.83, "clef": "bass" },
+        { "key": "E3", "notation": "E3", "frequency": 164.81, "clef": "bass" },
+        { "key": "F3", "notation": "F3", "frequency": 174.61, "clef": "bass" },
+        { "key": "G3", "notation": "G3", "frequency": 196.00, "clef": "bass" },
+        { "key": "A3", "notation": "A3", "frequency": 220.00, "clef": "bass" },
+        { "key": "B3", "notation": "B3", "frequency": 246.94, "clef": "bass" },
+        { "key": "C4", "notation": "C4", "frequency": 261.63, "clef": "treble" },
+        { "key": "D4", "notation": "D4", "frequency": 293.66, "clef": "treble" },
+        { "key": "E4", "notation": "E4", "frequency": 329.63, "clef": "treble" },
+        { "key": "F4", "notation": "F4", "frequency": 349.23, "clef": "treble" },
+        { "key": "G4", "notation": "G4", "frequency": 392.00, "clef": "treble" },
+        { "key": "A4", "notation": "A4", "frequency": 440.00, "clef": "treble" },
+        { "key": "B4", "notation": "B4", "frequency": 493.88, "clef": "treble" },
+        { "key": "C5", "notation": "C5", "frequency": 523.25, "clef": "treble" }
+      ]
+    }
+  ],
+  "userProgress": {
+    "userId": "user123",
+    "completedExercises": [
+      {
+        "exerciseId": 1,
+        "dateCompleted": "2023-11-15T14:30:00Z",
+        "score": 8,
+        "totalQuestions": 10,
+        "wrongAttempts": [0, 1, 0, 0, 2, 0, 0, 0, 1, 0]
+      }
+    ],
+    "currentExercise": {
+      "exerciseId": 2,
+      "currentQuestionIndex": 3,
+      "score": 3,
+      "wrongAttempts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }
+  },
+  "settings": {
+    "playSound": true,
+    "showFeedback": true,
+    "feedbackDuration": 1000
+  }
+} 
